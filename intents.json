@@ -1,0 +1,1303 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+
+    {
+      "tag": "navigation to college",
+      "patterns": [
+        "Hey!How can I reach VIT-AP?",
+        "Where can i find the directions to VIT-AP?",
+        "May I know the directions to VIT,Amaravathi?",
+        "I need to go to VIT,AP.How can I reach ?",
+        "What is the shortest route to VIT-AP?",
+        "Is VIT-AP available on google maps?",
+        "How to Reach VIT AP?"
+      ],
+      "responses": [
+        "Follow this link to get the directions:<br><iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d30604.72118415434!2d80.500668!3d16.496278!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1490eacd54859850!2sVIT-AP%20University!5e0!3m2!1sen!2sus!4v1664385848969!5m2!1sen!2sus'width=150' height='100' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>"
+      ]
+    },
+
+    {
+      "tag": "College address",
+      "patterns": [
+        "Where is VIT-AP?",
+        "What is the address of VIT Amaravathi?"
+      ],
+      "responses": [
+        "VIT AP is located at Inavolu ,Amaravathi",
+        "VIT-AP University, G-30, Inavolu, Beside AP Secretariat Amaravati, Andhra Pradesh 522237, India",
+        "VIT-AP University is located near Vijayawada, 15 kms away from Vijayawada City and 35 kms away from Guntur City"
+      ]
+    },
+
+    {
+      "tag": "Time to reach college",
+      "patterns": [
+        "How long does it take to reach VIT-AP?",
+        "What is the duration of travel from Vijayawada or Guntur to VIT-AP?",
+        "Duration to Reach VIT-AP?",
+        "duration to reach vit ap?"
+      ],
+      "responses": [
+        "It takes approximately 30-40 mins from Vijayawada and 50-60 minutes from Guntur"
+      ]
+    },
+
+    {
+      "tag": "FFCS Intro",
+      "patterns": ["What is FFCS?"],
+      "responses": [
+        "FFCS Stands For Fully Flexible Credit System, And It's Followed Across VIT, To Provide Maximum Flexibility To Students."
+      ]
+    },
+
+    {
+      "tag": "Credits Required",
+      "patterns": [
+        "What are the total Number of Credits Required to Complete B.Tech Degree?",
+        "How many credits are needed to complete b.tech?",
+        "How many credits are required to complete b.tech degree?",
+        "How many credits should I Register?"
+      ],
+      "responses": [
+        "160 Credits Are Required in Total To Complete Your Degree, And You Also Need to Satisfy Minimum Basket Requirements."
+      ]
+    },
+    {
+      "tag": "PC Electives",
+      "patterns": ["Are There Any Electives in Program Core?"],
+      "responses": [
+        "No. All the Courses are compulsory in the Program Core Basket."
+      ]
+    },
+
+    {
+      "tag": "Elective Swapping",
+      "patterns": ["Can I Swap Electives From One Basket to Another?"],
+      "responses": [
+        "Yes! You Can Swap Electives, Provided they are available in the destined basket"
+      ]
+    },
+    {
+      "tag": "MGT Required Credits",
+      "patterns": [
+        "How Many Credits Are Required to Satisfy Management Basket?",
+        "How Many Credits Are Required to Satisfy MGT Basket?",
+        "What Are The Minimum Number of credits required to satisfy management basket?",
+        "What Are The Minimum Number of credits required to satisfy MGT basket?"
+      ],
+      "responses": [
+        "As of 2022's Curriculum, You need 6 Credits to Satisfy Minimum Credit Requirement of Management Basket"
+      ]
+    },
+    {
+      "tag": "HUM Required Credits",
+      "patterns": [
+        "How Many Credits Are Required to Satisfy Humanities Basket?",
+        "How Many Credits Are Required to Satisfy HUM Basket?",
+        "What Are The Minimum Number of credits required to satisfy humanities basket?",
+        "What Are The Minimum Number of credits required to satisfy HUM basket?"
+      ],
+      "responses": [
+        "As of 2022's Curriculum, You need 2 Credits to Satisfy Minimum Credit Requirement of Humanities Basket"
+      ]
+    },
+    {
+      "tag": "SCI Required Credits",
+      "patterns": [
+        "How Many Credits Are Required to Satisfy Science Basket?",
+        "How Many Credits Are Required to Satisfy SCI Basket?",
+        "What Are The Minimum Number of credits required to satisfy Science basket?",
+        "What Are The Minimum Number of credits required to satisfy SCI basket?"
+      ],
+      "responses": [
+        "As of 2022's Curriculum, You need 22 Credits to Satisfy Minimum Credit Requirement of Science Basket"
+      ]
+    },
+    {
+      "tag": "PE Required Credits",
+      "patterns": [
+        "How Many Credits Are Required to Satisfy Program Elective Basket?",
+        "How Many Credits Are Required to Satisfy PE Basket?",
+        "What Are The Minimum Number of Credits Required to Satisfy PE Basket?",
+        "What Are The Minimum Number of Credits Required to Satisfy Program Elective Basket?"
+      ],
+      "responses": [
+        "As of 2022's Curriculum, You need 22 Credits to Satisfy Minimum Credit Requirement of Program Elective Basket"
+      ]
+    },
+    {
+      "tag": "Foreign Language",
+      "patterns": [
+        "Is Foreign Language Mandatory?",
+        "Is FL Mandatory?",
+        "Is it compulsory to take a Foreign Language?"
+      ],
+      "responses": ["No! It's Not Compulsory to take a Foreign Language."]
+    },
+    {
+      "tag": "Max Creds Sem",
+      "patterns": [
+        "What is The Maximum Limit of Credits that can be registered in a semester?",
+        "What is The Max Limit of Credits That can be registered in a sem?"
+      ],
+      "responses": ["You Can Register a maximum of 27 Credits in a semester"]
+    },
+    {
+      "tag": "Capstone Project Timing",
+      "patterns": [
+        "When Should We Take The Capstone Project Course?",
+        "When Should We Register For Capstone Project?",
+        "When is it Advised to take capstone project?",
+        "When should i register for capstone?"
+      ],
+      "responses": [
+        "You Should take capstone project in the First Semester of Your Final Year!"
+      ]
+    },
+    {
+      "tag": "Capstone Project Size",
+      "patterns": [
+        "Is Capstone Project Team or Individual?",
+        "Are Teams Allowed in Capstone Project?",
+        "What is the Maximum Size of Team of Capstone Project?"
+      ],
+      "responses": [
+        "Capstone Project Can Be Completed in a Team, And Maximum Size of The Team is 3, provided all are under same branch irrespective of specialisation"
+      ]
+    },
+    {
+      "tag": "English Basket Credits",
+      "patterns": [
+        "How Many Credits Are Required to Satisfy English Basket?",
+        "How Many Credits Are Requried to Satisfy ENG Basket?",
+        "What Are The Minimum Number of Credits required to Satisfy English Basket?",
+        "What Are The Minimum Number of Credits required to Satisfy ENG Basket?"
+      ],
+      "responses": [
+        "As of 2022's Curriculum, You need a minimum of 4 Credits To Satisfy Minimum Credit Requirement of English Basket."
+      ]
+    },
+    {
+      "tag": "Engineering Basket",
+      "patterns": [
+        "How Many Credits Are Required to Satisfy Engineering Basket?",
+        "How Many Credits Are Requried to Satisfy ENGG Basket?",
+        "How Many Credits Are Requried to Satisfy ENGN Basket?",
+        "What Are The Minimum Number of Credits required to Satisfy Engineering Basket?",
+        "What Are The Minimum Number of Credits required to Satisfy ENGG Basket?",
+        "What Are The Minimum Number of Credits required to Satisfy ENGN Basket?",
+        "How many credits should i do in Engineering Basket?"
+      ],
+      "responses": [
+        "As of 2022's Curriculum, You need 12 Credits To Satisfy Minimum Credit Requirement of Engineering Basket"
+      ]
+    },
+    {
+      "tag": "PreReq",
+      "patterns": [
+        "What is a Pre-requisite?",
+        "What do you mean by Pre-requisite?",
+        "What is a pre requisite?"
+      ],
+      "responses": [
+        "A Pre-Requisite is a Course, That you should have completed before trying to take the current course"
+      ]
+    },
+    {
+      "tag": "AntiReq",
+      "patterns": [
+        "What is a Anti Requisite?",
+        "What do you mean by Anti-Requisite?",
+        "What is a Anti-Requisite?"
+      ],
+      "responses": [
+        "An Anti-Requisite is a Course, That You Shouldn't have completed before trying to take the current course"
+      ]
+    },
+    {
+      "tag": "Prereq not satisfy",
+      "patterns": [
+        "Can I Take a Course, Even if I Didn't Complete the Pre-Requisite Course?",
+        "Will I be able to Register for a course, even if I didn't finish the Pre-Requisite Course?",
+        "Is a Pre-Requisite Course Mandatory?",
+        "is a pre requisite course mandatory?"
+      ],
+      "responses": [
+        "You Must Compulsorily Finish a Pre-Requisite Course and you wont be able to take the course unless you complete the pre-requisite."
+      ]
+    },
+    {
+      "tag": "Antireq not satisfy",
+      "patterns": [
+        "Can I Take a Course, Even If I Completed an Anti-Requisite Course?",
+        "Is it possible to take a course having an Anti-Requisite?",
+        "What do you mean by Anti requisite course?"
+      ],
+      "responses": [
+        "No! You Can't take the course after you completed the anti-requisite course."
+      ]
+    },
+    {
+      "tag": "Course View Discrepancy",
+      "patterns": [
+        "Why Can't I See Some Courses, even when given in the list of offered courses?",
+        "Some Courses Are not visible during course registration. why?",
+        "Some courses aren't visible during course registration. why?"
+      ],
+      "responses": [
+        "All The Courses Given in the offered list won't be visible. The Courses which are in your curriculum only are visible."
+      ]
+    },
+    {
+      "tag": "Max Cred Reg",
+      "patterns": [
+        "Can I Register For More Than 27 Credits?",
+        "Can Another Subject be Registered after registering for 27 Credits?",
+        "Why Am I Unable to Register for another subject after registering for 27 Credits?"
+      ],
+      "responses": [
+        "The Maximum Credit Limit is 27! So, You can register for subjects only till you reach a total of 27 Credits For That Sem and you can't exceed a total of 27 Credits at any cost!"
+      ]
+    },
+    {
+      "tag": "Suggested credits",
+      "patterns": [
+        "What are optimal number of credits suggested for a semester?",
+        "What are the ideal number of credits that can be registered for a single semester?",
+        "What is the suggested number of credits to be registered in a semester?",
+        "How many credits should i take?"
+      ],
+      "responses": ["20-24 Credits is the optimal number of credits!"]
+    },
+    {
+      "tag": "Arrear Subject",
+      "patterns": [
+        "When Can I Register For Arrear Subjects?",
+        "When do I Get a Chance to Register for arrear subject?",
+        "Can I Register For arrear subjects in regular semester?"
+      ],
+      "responses": [
+        "You can Choose To Register For an Arrear Subject in Regular Semester Also. But If You Don't want to disturb your regular semester plan, then you can Register For Them In Summer Semesters. You also have an option to clear those subjects in arrear examinations, but irrespective of your marks, you can get a Maximum Grade of 'C' Only."
+      ]
+    },
+    {
+      "tag": "STS",
+      "patterns": ["Are Softskill courses mandatory?", "Is STS Course Mandatory?"],
+      "responses": [
+        "Yes! They Are Mandatory for those who joined through VITEEE!. For Students Who Joined through EAPCET, Please Check your curriculum or contact your program chairs"
+      ]
+    },
+    {
+      "tag": "PF Course",
+      "patterns": [
+        "What do you mean by Pass or Fail course?",
+        "Will I Get Credits For Pass or Fail Course?",
+        "What is a P/F Course?"
+      ],
+      "responses": [
+        "Pass/Fail Courses are mandatory courses that you should take, but must Pass the subject. Though you pass the subject, you won't be getting any credits."
+      ]
+    },
+    {
+      "tag": "EVS Ethics And Values Credit",
+      "patterns": [
+        "Will I get credits for Environmental Studies?",
+        "Are Credits awarded for completing EVS?",
+        "Will I get credits for EVS?",
+        "Will I get credits for Ethics And Values course?",
+        "Will I get credits for Ethics & Values?",
+        "Will E&V Have Credits?",
+        "Will I get credits for E&V?"
+      ],
+      "responses": [
+        "No! It is a Pass Or Fail Subject, That you should definitely complete but you wont be eligible to claim credits."
+      ]
+    },
+    {
+      "tag": "PE Course",
+      "patterns": [
+        "What is the eligibility for doing a program elective?",
+        "Do I need to satisfy any criteria to complete program elective?"
+      ],
+      "responses": [
+        "No. There is no particular eligibility criteria for program electives, but you need to satisfy the pre-requisite course criteria, if any for a course. And you need to satisfy the minimum basket requirements for program elective basket if any."
+      ]
+    },
+    {
+      "tag": "Program Core Eligibility",
+      "patterns": [
+        "What is the eligibility criteria for program core?",
+        "Are There any electives in Program Core?",
+        "Can I Skip any course in Program Core?",
+        "Can I Substitute a Program course with another course?",
+        "Can I Skip a Course in PC?"
+      ],
+      "responses": [
+        "All The courses in the Program core basket are mandatory, and there are no electives and course substitution is not possible."
+      ]
+    },
+    {
+      "tag": "UE Criteria",
+      "patterns": [
+        "What is the eligibility criteria for University Electives?",
+        "Are there any Mandatory courses in University Elective?",
+        "What is the eligibility criteria for UE Course?",
+        "Is there any restriction on UE Course?"
+      ],
+      "responses": [
+        "There is no pre requisite for a University Elective Course, But It's Advised to Satisfy all the other baskets first, and satisfy the UE Basket at last, because Any course can be claimed (Except Program Core Courses of All the Specializations) without duplicity "
+      ]
+    },
+    {
+      "tag": "FFCS_Contact",
+      "patterns": [
+        "To Whom should I contact regarding FFCS Course registrations?",
+        "Who Can help me Regarding FFCS Registrations?",
+        "From who, I Can know much more about FFCS?"
+      ],
+      "responses": [
+        "Please Contact Office Of Dean academics for complete details regarding FFCS Registrations"
+      ]
+    },
+    {
+      "tag": "PE_Mandatory",
+      "patterns": [
+        "Is it Mandatory for us to do atleast one course for program elective in other specialization baskets?",
+        "Are there any restrictions applicable for PE Baskets?"
+      ],
+      "responses": [
+        "It is required that students complete a minimum of 1 course from other programs, so that they have some knowledge regarding other areas. Please check with your curriculum to know whether a course from each basket is mandatory or not!"
+      ]
+    },
+    {
+      "tag": "Payment Mode",
+      "patterns": [
+        "In which scenarios does payment mode get activated?",
+        "What are the cases where payment mode is applicable?",
+        "Why Does Payment mode gets activated?",
+        "When does payment mode get activated?"
+      ],
+      "responses": [
+        "The Payment mode get's activated, if you are trying to re-register for a course, or trying to register for a course in a particular basket, if even if the requirements are satisfied. Payment mode is also applicable for Grade Improvement Courses."
+      ]
+    },
+    {
+      "tag": "Cred_Adj_Possibility",
+      "patterns": [
+        "Is it possible to adjust my credits?",
+        "Is Credit Adjustment Possible?"
+      ],
+      "responses": [
+        "Yes! Credit Adjustment is possible, and you can adjust your credits during course registration or you can contact Office of Dean Academics regarding credit adjustment."
+      ]
+    },
+    {
+      "tag": "Cred_Adj_Instruction",
+      "patterns": [
+        "How to do credits adjustments?",
+        "How Can I Excercise The option of credit adjustment?",
+        "What is Credit Adjustment?"
+      ],
+      "responses": [
+        "Credit Adjustment is a process in which, you can move excess credits/courses from one basket to another and satisfy the minimum credit requirements for that basket instead of taking another course. You can excercise the option of Credit Adjustment During Course Registration or Add And Drop, and you can only adjust credits for the courses for which grades have been anounced!"
+      ]
+    },
+    {
+      "tag": "Club and Chapter",
+      "patterns": [
+        "When is the right time to register for clubs and chapters?",
+        "When Should I Register for clubs and chapters?",
+        "Is registering for clubs and chapters mandatory?",
+        "Do I Get Credits for being a member of club?",
+        "Do I Have to be part of club's executive team to claim credits?",
+        "Where should I Register for clubs and chapters?"
+      ],
+      "responses": [
+        "You Can Register for clubs and chapters in any of your fall semester, and you need to attend the events of the club and participate actively to gain a Pass Credit, and you have to take it mandatorily. Since it is a Pass/Fail course, you need to mandatorily enroll yourself as a member of club, and it not essentially meaning member of executive team to claim credits."
+      ]
+    },
+    {
+      "tag": "Internship And SDP",
+      "patterns": [
+        "When should I register for Internships?",
+        "In which semester should we register for senior design project?",
+        "Is Doing an Internship Mandatory?",
+        "Is Doing an SDP or Senior Design Project mandatory?",
+        "Should I Compulsorily complete Senior Design Project?",
+        "Should I Compulsorily complete SDP?"
+      ],
+      "responses": [
+        "You Need to Enroll for an Internship/SDP In your final semester, and it's mandatory in order to complete your degree."
+      ]
+    },
+    {
+      "tag": "TPC Component",
+      "patterns": [
+        "What is TPC that is mentioned along with course?",
+        "What does TPC Stand For when viewed in curriculum?",
+        "What is TPC?"
+      ],
+      "responses": [
+        "TPC Are 3 Different Components that define the total number of credits for the course you register. T Stands For Theory and PC Stands for Project/Practical Component and all these together define the number of credits that will be awarded to a course."
+      ]
+    },
+    {
+      "tag": "View Reg Course at reg",
+      "patterns": ["How to check my registered courses during registrations?"],
+      "responses": [
+        "You have an option called View registered courses where you can check for registered courses."
+      ]
+    },
+    {
+      "tag": "Grade_Imp",
+      "patterns": [
+        "I got a lesser grade in this sem.How can I improve my grade?",
+        "Is Grade Improvement Possible?",
+        "Is there any method where I can Increase my Grade?",
+        "How To Increase My Grade for a particular subject?",
+        "What do you mean by grade improvement?"
+      ],
+      "responses": [
+        "Grade Improvement is a process in which, you will re-attempt a course, and have the best of 2 grades applicable in the calculation of your CGPA, and it is possible to increase your grade, but you need to pay a re-registration fee"
+      ]
+    },
+    {
+      "tag": "Basket Suggestion",
+      "patterns": [
+        "What Basket is Suggested to be completed at first?",
+        "Which Basket should I Complete First?"
+      ],
+      "responses": [
+        "There is no particular suggestion about which basket should be completed first. You can take any course that's available to you at the time of course registration, but the optimal number of suggested credits is between 20-25."
+      ]
+    },
+    {
+      "tag": "Cred_Award",
+      "patterns": [
+        "Will I Get Credits for a course, if I Attend all the classes, but fail in the course?",
+        "I Failed in a course. will I get credits for the course?",
+        "I Want to take a course, but it has a pre requisite in which I failed. Can I Still take the new course?"
+      ],
+      "responses": [
+        "No! You must pass a course in order to get credits. but you can take new courses, which have the failed course as pre-requisite."
+      ]
+    },
+    {
+      "tag": "Curr_RegView",
+      "patterns": [
+        "Why I Can't see all the courses offered in the curriculum, in registration portal at the time of registration?",
+        "I Can see a course in the list of courses offered list, but I Can't see the course at the time of registration. Why?"
+      ],
+      "responses": [
+        "You Will be able to see only the courses that are present in your curriculum and offered to your batch. Even though there are many courses, you won't be able to see all the courses for registering."
+      ]
+    },
+    {
+      "tag": "Mand_Course",
+      "patterns": [
+        "What are the mandatory courses for all CSE Students?",
+        "Are there any mandatory courses for all Students?",
+        "What are the compulsory courses?",
+        "Are there any mandatory courses?"
+      ],
+      "responses": [
+        "All The Program core courses, along with Ethics And Values, Environmental Studies, And the compulsory listed courses in curriculum are mandatory."
+      ]
+    },
+    {
+      "tag": "Engg_Clinics",
+      "patterns": [
+        "Are Engineering Clinics Mandatory?",
+        "Is Doing ECS Mandatory?",
+        "Is ECS Mandatory?",
+        "Should I Take ECS Compulsorily?"
+      ],
+      "responses": ["Yes! Doing an Engineering Clinics course is mandatory."]
+    },
+    {
+      "tag": "Min_Attn",
+      "patterns": [
+        "What is the Minimum Attendance Required?",
+        "Is there any Attendance Relaxation Criteria?",
+        "I Have 80% Attendance. Am I Eligible to take CAT/FAT Examination?"
+      ],
+      "responses": [
+        "A Minimum of 80% Attendance is required to be eligible to write the Next Assesment(CAT/FAT) Examination, And There is a 10% Relaxation criteria for severe health issues."
+      ]
+    },
+    {
+      "tag": "Lab_Evaln",
+      "patterns": [
+        "Do Lab only courses follow relative grading?",
+        "What is the Mode of Grading for Lab courses?",
+        "What is the evaluation criteria for labs?",
+        "How are Labs Graded?",
+        "How are Labs Evaluated?"
+      ],
+      "responses": [
+        "Absolute Grading Methodology is Followed for Labs, And you need a Minimum of 50 Marks to be considered pass in Lab Course."
+      ]
+    },
+    {
+      "tag": "Pass Criterion",
+      "patterns": [
+        "What are the minimum marks required to pass a course?",
+        "How many marks are needed to be considered for Grading?",
+        "How many marks are needed to pass a course?"
+      ],
+      "responses": [
+        "You need to score a minimum of 40% marks in the Conducted CAT Examinations and FAT Examinations."
+      ]
+    },
+    {
+      "tag": "STS Grading",
+      "patterns": [
+        "Which type of Grading system is followed by Softskill courses?",
+        "Does STS Courses Follow Absolute Grading or Relative Grading?",
+        "Do STS Courses Follow Relative Grading or Absolute Grading?"
+      ],
+      "responses": [
+        "STS Courses Follow Absolute Grading and you need a minimum of 50 Marks to be considered pass."
+      ]
+    },
+    {
+      "tag": "GPA To Percentage",
+      "patterns": [
+        "What is the Percentage Equivalent of CGPA?",
+        "How to Convert My CGPA to Percentage?"
+      ],
+      "responses": [
+        "You Can Multiply by 10 To Convert your CGPA Into Percentage. Please Check with office of CoE for further information."
+      ]
+    },
+    {
+      "tag": "Club_Mand",
+      "patterns": [
+        "Are Club Courses mandatory?",
+        "Is Doing a Club course mandatory?",
+        "Should I Register For clubs compulsorily?"
+      ],
+      "responses": [
+        "Club Course is a mandatory Pass or Fail Component. You should register for it, and complete it before you gradudate. It is advised to enroll for club courses before your final year."
+      ]
+    },
+    {
+      "tag": "Arrear_Clear",
+      "patterns": [
+        "How Can I Clear a Failed Course?",
+        "What is the procedure to clear a Failed course?",
+        "How to clear my arrear subject?",
+        "What is the procedure to clear an arrear?"
+      ],
+      "responses": [
+        "You need to re-register for the course in the subsequent semester or you can register for the course in summer semester, subject to the offering of the course, and you can also clear the subject through arrear examination, which will be enabled to you before the beginning of the final year. For further clarification, please contact office of Controller of Examinations."
+      ]
+    },
+
+    {
+      "tag": "VTOP",
+      "patterns": [
+        "What is VTOP?",
+        "What is V-TOP?",
+        "What is vtop?",
+        "What is the use of Vtop?"
+      ],
+      "responses": [
+        "VTOP is a portal used by students, faculty members and parents to access to avail various university services related to academics, payments, transport, examinations,marks,grades,student information and other services.",
+        "Vtop is a portal to access university services."
+      ]
+    },
+    {
+      "tag": "Vtop logins",
+      "patterns": ["How many different kinds of VTOP logins are possible?"],
+      "responses": [
+        "Students and faculty have same login portal and parents have a different login portal.",
+        "Students,faculty members and parents can login using VTOP.",
+        "Two logins are possible,students and faculty members through one login and parents through another login.",
+        "Faculty members,students and parents can use Vtop."
+      ]
+    },
+    {
+      "tag": "login for user",
+      "patterns": [
+        "How can students login to check their VTOP account?",
+        "What is the VTOP link for student login?",
+        "Can I get the Vtop link for Student login?",
+        "How can parents login to check their VTOP account?",
+        "How can faculty members login to check their VTOP account?",
+        "What is the Vtop link for faculty members?",
+        "What is the vtop link for parent login?"
+      ],
+      "responses": [
+        "Here is the VTOP link <a src='https://vtop2.vitap.ac.in/vtop/initialProcess'>VTOP login</a>"
+      ]
+    },
+    {
+      "tag": "Pass reset",
+      "patterns": [
+        "How can I recover my VTOP password?",
+        "I forgot my VTOP password.How can I generate a new one?"
+      ],
+      "responses": [
+        "Click on Forgot password on the VTOP login page and enter the registration number and generate OTP.Then enter the recieved OTP and set the new password.",
+        "There is a link named forgot password.Click the link and generate OTP and then set the new password."
+      ]
+    },
+    {
+      "tag": "Vtop session limit",
+      "patterns": [
+        "How long is the VTOP page active?",
+        "What is the active time for Vtop login?",
+        "How long can we leave the vtop page idle?",
+        "What is the session time for VTOP?",
+        "Is there a session limit for VTOP?"
+      ],
+      "responses": [
+        "The session limit for a VTOP page is 15 minutes after which you will be prompted to login again.",
+        "Active time for Vtop page is 15 mins."
+      ]
+    },
+
+    {
+      "tag": "vtop services",
+      "patterns": [
+        "What are the various services of VTOP dashboard?",
+        "What all features do we get in VTOP?",
+        "What are the features of VTOP?"
+      ],
+      "responses": [
+        "Vtop services include Myinfo,info corner,mentor,academics,research,examination,services,library,online payments,hostels,feedback,CDC,alumni,student records and myaccount.",
+        "my info,info corner,mentor,academics,research,examination,services,library,online payments,hostels,feedback,CDC,alumni,student records and myaccount."
+      ]
+    },
+    {
+      "tag": "my info",
+      "patterns": [
+        "What are the contents of MYInfo service?",
+        "What are the features of my info service?",
+        "What is the use of myInfo service?"
+      ],
+      "responses": [
+        "my info service includes options like  provisional admission letter,Student profile,vit credentials,day boarder info, student bank info,codetantra details,COE info."
+      ]
+    },
+    {
+      "tag": "my Info services",
+      "patterns": [
+        "Where can I find my account information?",
+        "Where can I check my student profile?",
+        "Where can a user check their university related information and credentials?",
+        "Where can I check my codetantra credentials?"
+      ],
+      "responses": [
+        "Check the MyInfo service in VTOP.",
+        "my info",
+        "you can find them in MyInfo service in VTOP dashboard."
+      ]
+    },
+    {
+      "tag": "Info corner",
+      "patterns": [
+        "What is the use of the info corner service provided by VTOP?",
+        "What are the features of info corner?",
+        "What are the contents of info corner?"
+      ],
+      "responses": [
+        "Info corner includes features like  FAQ,spotlights and Circulars.",
+        "Info corner contains the latest university related and news and frequently asked questions."
+      ]
+    },
+    {
+      "tag": "info services",
+      "patterns": [
+        "Where can I check the latest university circulars and spotlight info?",
+        "Where can I access the past FAQs and queries?"
+      ],
+      "responses": [
+        "Check out the info corner section.",
+        "Kindly check the Info corner section in VTOP."
+      ]
+    },
+    {
+      "tag": "mentor",
+      "patterns": [
+        "What are the contents of Mentor services?",
+        "What is the use of the mentor service provided by VTOP?",
+        "What are the features of mentor service?"
+      ],
+      "responses": [
+        "Mentor services include mentor details, mentor's message,message mentor.",
+        "Mentor services can be useful to obtain mentor related info and communicate with them."
+      ]
+    },
+    {
+      "tag": "Mentor services",
+      "patterns": [
+        "Where can I find my mentor details?",
+        "How can my parents get access to mentor details?",
+        "How to contact my mentor?"
+      ],
+      "responses": [
+        "In Vtop there is a section named Mentor where you can find mentor details and information related to them.You can also send a message to them via VTOP.",
+        "Kindly check the Mentor service in Vtop."
+      ]
+    },
+    {
+      "tag": "academics",
+      "patterns": [
+        "What are the contents of the Academics services of VTOP?",
+        "What is the use of the Academics service provided by VTOP?",
+        "What are the features of academics section?"
+      ],
+      "responses": [
+        "Academics service includes academic related features like HOD and Dean information.Class timetable,attendance and biometric status,credits distribution and curriculum,project and lab assignment uploads,sdp registration and review marks,academic calender etc.",
+        "Using Academics service we can access the academic related information of a student like their attedance,timetable,project uploads,curriculum and credits details etc."
+      ]
+    },
+    {
+      "tag": "acad opts",
+      "patterns": [
+        "Where can I find HOD or Dean information?",
+        "How to get to know the Dean of my branch?",
+        "How can I get information about a particular faculty member?",
+        "How to view my minor or honour courses?",
+        "What is the use of Minor or honours tab in academics service of VTOP",
+        "Does Vtop have an option to check to my timetable?",
+        "Where can I find my timetable?",
+        "What is the use of Course page?",
+        "Where can I access the materials and course related documents in VTOP?",
+        "Where should I upload my capstone project?",
+        "Where should I upload my class assignments?",
+        "Where should I upload my theory class assignments and tasks?",
+        "Where should I upload my lab assignments and tasks?",
+        "Where can I register for Engineering clinics?",
+        "How can I check my ECS review marks?",
+        "Where can I find the academic calender?",
+        "I want to check the list of holidays.How can I find the calender?",
+        "How to register for Industrial Internship?",
+        "How to check update the college regarding internship details?"
+      ],
+      "responses": [
+        "Kindly check the Academics section in Vtop to obtain the necessary information.",
+        "Check the Academics service in VTOP.",
+        "Academics section has various services related to academics.You can find the necessary information here."
+      ]
+    },
+    {
+      "tag": "SDP",
+      "patterns": [
+        "How to register for Senior Design project?",
+        "How to check SDP faculty acceptance status?",
+        "Where can I check my SDP review marks?"
+      ],
+      "responses":[
+        "Kindly check the Academics section in Vtop to obtain the necessary information.",
+        "Check the Academics service in VTOP.",
+        "Academics section has various services related to academics.You can find the necessary information here."
+      ]
+    },
+    {
+      "tag": "biometric and attendance",
+      "patterns": [
+        "How to check my biometric status?",
+        "I am unsure whether my biometric is updated today.Where can I check the status?",
+        "Where can students check their attendance status?",
+        "How to check my attendance for a course?",
+        "How to check my attendance?"
+      ],
+      "responses": [
+        "You can find the biometric and attendance related status in academics services",
+        "Attendance and biometric related issues are present in academics section.",
+        "You can check your biometric and attendance status in academics section in VTOP.",
+        "Login to your vtop account and navigate to the academics section and there you will find two options biometric status and attendance.Select each option and obtain the necessary information."
+      ]
+    },
+    {
+      "tag": "Cred distribution",
+      "patterns": [
+        "What is my Credits distribution?",
+        "Where Can I check the number credits earned so far?"
+      ],
+      "responses": [
+        "credits distribution shows the split up of credits you have obtained so far mapped to the required credits in academics section in vtop.",
+        "In the academics section in vtop you have an option named credits distribution where you can access the credits earned so far and the required credits for each and every basket."
+      ]
+    },
+    {
+      "tag": "curriculum and acad regulations.",
+      "patterns": [
+        "How can I access the curriculum in VTOP?",
+        "Where can I find my curriculum?",
+        "I am unaware of the University curriculum regulations.Where can I find them?",
+        "What are the current updated academic regulations?"
+      ],
+      "responses": [
+        "Kindly check the academics section in VTOP to find curriculum and academic regulations",
+        "You can find academic regulations and curriculum related details in academics section."
+      ]
+    },
+    {
+      "tag": "minor",
+      "patterns": [
+        "How to view my minor or honour courses?",
+        "What is the use of Minor or honours tab in academics service of VTOP"
+      ],
+      "responses": [
+        "Minors or honours tab helps you to apply for minors degree in another specialization and helps you with the registration process.To view this feature, make use of the academics tab to navigate through its options and select the minors option to make use of this service."
+      ]
+    },
+    {
+      "tag": "timetable",
+      "patterns": [
+        "Does Vtop have an option to check the timetable?",
+        "Where can I find my timetable?",
+        "How to check my timetable?"
+      ],
+      "responses": [
+        "A student can access the timetable in the acedemics section.Any Vitap entity be it student,faculty or research scholar can check their timetable and attend classes accordingly."
+      ]
+    },
+    {
+      "tag": "attendance",
+      "patterns": [
+        "Where can students check their attendance status?",
+        "How to check my attendance for a course?",
+        "How can I get access to my attendance status?"
+      ],
+      "responses": [
+        "The academics section has an option named Class Attendance where you can check your attendance for a particular course along with the timestamp when your attendance is punched."
+      ]
+    },
+    {
+      "tag": "coursepage",
+      "patterns": [
+        "What is the use of Course page?",
+        "Where can I access the materials and course related documents in VTOP?",
+        "Where can I find the course syllabus?"
+      ],
+      "responses": [
+        "The course page is a common forum where vitap entities can access study materials, syllabus plan, important dates related to class assignments and quizzes and all the necessary information related to course.You can access them using academics section of VTOP."
+      ]
+    },
+    {
+      "tag": "digital assn upload",
+      "patterns": [
+        "Where should I upload my class assignments?",
+        "Where should I upload my theory class assignments and tasks?"
+      ],
+      "responses": [
+        "You have an option named Digital assignment upload in academics where you can upload your digital assignments for non cat evaluation",
+        "Access the digital assignment option in academics section of VTOP."
+      ]
+    },
+    {
+      "tag": "capstone",
+      "patterns": [
+        "Where should I upload my capstone project?",
+        "Which service should i use to upload my Capstone project?"
+      ],
+      "responses": [
+        "The project report upload option enables you to upload your capstone project.Check the academics section to access the feature.",
+        "Check the project report upload option in academics section in VTOP."
+      ]
+    },
+    {
+      "tag": "lab manual",
+      "patterns": [
+        "Where should I upload my lab assignments and tasks?",
+        "I have to upload my lab tasks.Where is the lab manual option?"
+      ],
+      "responses": [
+        "Lab manual option in Academics section is where you can upload lab tasks and assignments.",
+        "Check the lab manual option in Academics section in VTOP."
+      ]
+    },
+    {
+      "tag": "ECS",
+      "patterns": [
+        "Where can I register for Engineering clinics?",
+        "How can I check my ECS review marks?"
+      ],
+      "responses": [
+        "The academics section has options like ECS registration and ECS review marks where you can register your team for ECS and get timely update on marks alloted for every review.Make use of this feature in VTOP.",
+        "ECS registration and ECS review marks in VTOP are the options you need to refere in academics section."
+      ]
+    },
+    {
+      "tag": "SDP",
+      "patterns": [
+        "How to register for Senior Design project?",
+        "How to check SDP faculty acceptance status?",
+        "Where can I check my SDP review marks?"
+      ],
+      "responses": [
+        "Academics section has multiple Senior design project options where you can register, check the faculty acceptance status and review marks alotted for SDP.",
+        "Check the SDP registration to register for SDP, SDP acceptance status to check if faculty accepted your proposal or not,SDP review marks to check your marks for each review."
+      ]
+    },
+    {
+      "tag": "acad calender",
+      "patterns": [
+        "Where can I find the academic calender?",
+        "I want to check the list of holidays.How can I find the calender?"
+      ],
+      "responses": [
+        "Check out the academics service to get the academics calender option. "
+      ]
+    },
+    {
+      "tag": "industrial internship",
+      "patterns": [
+        "How to register for Industrial Internship?",
+        "How to check update the college regarding internship details?"
+      ],
+      "responses": [
+        "Access the academics service where you can find the Industrial internship option."
+      ]
+    },
+    {
+      "tag": "examination",
+      "patterns": [
+        "What are the contents of the examination services of VTOP?"
+      ],
+      "responses": [
+        "The examination tab contains exams related services like exam schedule,arrear registration, marks,grades,grade history,re-evaluation request etc."
+      ]
+    },
+    {
+      "tag": "Exam schedule",
+      "patterns": [
+        "Where can I check my exam schedule for CAT?",
+        "Where can I check my exam schedule for FAT?"
+      ],
+      "responses": [
+        "You can find the exam schedule in the Examinations service under Exam schedule option where you can check your seating and move to the respective room numbers.",
+        "Check the Examinations Tab and select exam schedule option."
+      ]
+    },
+    {
+      "tag": "seating arrgmnt",
+      "patterns": ["How to check the seating arrangement for my exams?"],
+      "responses": [
+        "Login to your vtop and select the Examinations services and select the Examinations tab to get your seating allotment for a particular exam."
+      ]
+    },
+    {
+      "tag": "marking",
+      "patterns": [
+        "Which option should I select in VTOP to check my internal marks?",
+        "Where can I find my current sem subject marks?",
+        "Where should I navigate to know my exam results?"
+      ],
+      "responses": [
+        "Check the Marks option under Examination services in Vtop.Select the current semester and you will be able to see the updated results by your faculty.",
+        "Navigate to examinations tab and select marks option.Then select the respective semester to get the marks alloted for a particular course."
+      ]
+    },
+    {
+      "tag": "grades",
+      "patterns": [
+        "Where will the university upload grades in VTOP?",
+        "Where will the grades be released in VTOP?"
+      ],
+      "responses": [
+        "The Semester related grades will be released in the grades tab under Examinations service.Select the semester to get to know the grades and distribution.",
+        "Check the Grades tab to get to know your grades for a particular sem."
+      ]
+    },
+    {
+      "tag": "CGPA",
+      "patterns": [
+        "How to check my CGPA so far?",
+        "Where can I find my grade history details?"
+      ],
+      "responses": [
+        "the grade history tab under examinations tab will provide you the grade history so far or the updated CGPA along with the updated CGPA so far.",
+        "Make use of the G"
+      ]
+    },
+    {
+      "tag": "re-eval",
+      "patterns": ["How to apply for re evaluation?"],
+      "responses": [
+        "Login to your vtop account and then navigate to examination tab and then select Re-evaluation request option and select the course in which you want your answer sheets revaluated and make a payment of 150 rupees per answer sheet.This will forward a request to the respective faculty and you can expect the response within a week.",
+        "Check the re-evalution request option under examinations tab and make a payment of 150 rs per answer sheet to apply for re evaluation."
+      ]
+    },
+    {
+      "tag": "arrears",
+      "patterns": ["How to register for arrear examinations?"],
+      "responses": [
+        "Under Examinations tab there is a option named Arrear registration where you can register for arrear examinations.",
+        "Check Arrear Registration tab Under Examinations tab."
+      ]
+    },
+
+    {
+      "tag": "research",
+      "patterns": [
+        "What is the use of Research service in VTOP and who can access them?"
+      ],
+      "responses": [
+        "The Research service is enabled only for research scholar who can register under a guide and conduct their research process and check the meeting info under this section."
+      ]
+    },
+    {
+      "tag": "services",
+      "patterns": ["What is the use of Services tab in VTOP?"],
+      "responses": [
+        "Services tab includes additional services like transport registration, placement training registration,transcript download, online book recommendation and a portal to upload offer letter."
+      ]
+    },
+    {
+      "tag": "placements",
+      "patterns": [
+        "How to register for Placements?",
+        "Where should I register for PAT?",
+        "How to access the PAT internship form?"
+      ],
+      "responses": [
+        "Pat internship form can be downloaded to manually fill and submit it to the CDC team or else you can apply for placements by registering for PAT under the PAT registration option under services tab.",
+        "Check the Pat internship form and Pat registration option under services tab to know more."
+      ]
+    },
+    {
+      "tag": "transcripts",
+      "patterns": [
+        "How to apply for Transcripts?",
+        "How can I get my transcripts and what is the process?"
+      ],
+      "responses": [
+        "The transcript service enables final year students to avail consolidated grade sheet, sem wise grade sheet both as hard copies and soft copies.Each type has a charge assigned to it along with postal charges if selected.Select the options accordingly and generate the receipt which can be paid in the payments section.",
+        "Students can get their consolidated and sem wise grade sheet hard copies as well as provisional degree(only for candidates who are eligible for award of degree)."
+      ]
+    },
+    {
+      "tag": "transport reg",
+      "patterns": [
+        "I am a day boarder and i am willing to travel to college by bus.Where should I register?",
+        "How to register for transport services?"
+      ],
+      "responses": [
+        "check the transport registration option under services tab to Select a particular bus route and generate a payment receipt which can be paid in the payments section."
+      ]
+    },
+    {
+      "tag": "library",
+      "patterns": ["What is the use of Library services in VTOP?"],
+      "responses": [
+        "Library service has library related services which are currently blocked for users."
+      ]
+    },
+    {
+      "tag": "payments tution fee",
+      "patterns": [
+        "Where Should i pay my tuition fee in VTOP?",
+        "What are the contents of the Payments section in VTOP?",
+        "Where can I find my past Payment receipts?"
+      ],
+      "responses": [
+        "Payments section has various payments related section like Payments ,Payment Receipts, Online Transfer and Student wallet.Make use of these accordingly",
+        "Payments section has current and upcoming payments to be paid,payment receipts section has the receipts of past payments,online transfer service will be enabled for online transfer purposes,student wallet is amount which every student has currently under university quota."
+      ]
+    },
+    {
+      "tag": "stud wallet",
+      "patterns": [
+        "How to access my student wallet?",
+        "Where does the excess fee or refunded amount go?"
+      ],
+      "responses": [
+        "The student wallet option under payments shows the current excess or refundable amount which the student gets which can later be adjusted in future payments.",
+        "Check the student wallet section under payments to get to know the amount the student has under university quota."
+      ]
+    },
+    {
+      "tag": "hostel allotment",
+      "patterns": [
+        "Where can I register for Hostel allotment?",
+        "How does the hostel counselling take place?"
+      ],
+      "responses": [
+        "There is a separate hostels tab under which there is a counselling option under which there is a sub option named hostel info where you can register for hostel and check the hostel room info."
+      ]
+    },
+    {
+      "tag": "feedback",
+      "patterns": [
+        "Where should I submit my feedback related to university and academics?",
+        "I want to submit a feedback.Where should i submit?"
+      ],
+      "responses": [
+        "You can make use of the feedback tab where you can give academic, mentor, lab, infrastructure, staff and general feedback on VITAP.",
+        "There is a separate section for Feedbacks in vtop.Kindly make use of it."
+      ]
+    },
+    {
+      "tag": "Bonafide",
+      "patterns": [
+        "How to apply for bonafide?",
+        "How to get my bonafide certificate?"
+      ],
+      "responses": [
+        "There is a tab named Student records where you can apply for bonafide or you can personally go to AB1 3rd floor where you can find the students records room and apply for bonafide manually.",
+        "Check student records under which you can apply for bonafide."
+      ]
+    },
+    {
+      "tag": "custodian",
+      "patterns": ["Where can I access the custodian certificate?"],
+      "responses": ["Check vtop to know more."]
+    },
+    {
+      "tag": "vitaa",
+      "patterns": [
+        "Where is the alumni and final year registration?",
+        "How to register for vitaa?"
+      ],
+      "responses": [
+        "There is a Alumni tab where you can register for VITAA and final year and get your name added to the alumni association of VITAP.",
+        "Check the alumni tab where you can register for alumni association."
+      ]
+    },
+    {
+      "tag": "industry certs",
+      "patterns": [
+        "Where should i select the industry certification and make payment?",
+        "How to register for industry certification?"
+      ],
+      "responses": [
+        "CDC service under VTOP has an option named Industry certification payment where you can select a particular certification and later make payment in vtop.",
+        "CDC tab has options like industry certification and a separate option for nasscom certification where you can select only nasscom related certifications."
+      ]
+    },
+    {
+      "tag": "Dn acad",
+      "patterns": [
+        "What is the mailing address of dean academics?",
+        "How should I contact Dean Academics?",
+        "What is the email id of dean academics?",
+        "Whom should I mail to regarding academics"
+      ],
+      "responses": [
+        "To reach out to dean academics you can mail to <a href='mailto:dean.acad@vitap.ac.in'>Dean Academics</a>",
+        "Dean academics mailing id- <a href='mailto:dean.acad@vitap.ac.in'>Dean Academics</a>",
+        "For academics related queries kindly contact dean academics <a href='mailto:dean.acad@vitap.ac.in'>Dean Academics</a>"
+      ]
+},
+{
+  "tag":"controller of exams",
+  "patterns":[
+     "What is the mail id of COE?",
+     "Whom should I mail regarding Examinations,seating arrangement,evaluations and transcripts?",
+     "What is the mailing address of controller of examinations?"
+     
+  ],
+  "responses":[
+     "To reach out COE kindly mail to <a href='mailto:coe@vitap.ac.in'>COE</a>",
+    "Kindly mail to COE regarding exam related issues <a href='mailto:coe@vitap.ac.in'>COE</a>"
+  ]
+},
+{
+  "tag":"stud recs",
+  "patterns":[
+     "What is the mailing address of students record section?",
+    "Whom Should I mail regarding certificate related queries and student records?"
+    
+  ],
+  "responses":[
+    "You can mail to student records section regarding certificates, transcripts and bonafides by mailing to this address <a href='mailto:student.services@vitap.ac.in'>Student Records section</a>"
+  ]
+},
+{
+  "tag":"Placement queries",
+  "patterns":[
+    "Whom should I mail regarding Placement related queries?",
+    "What is the mailing address of PAT?",
+    "To whom should we contact regarding internships and placement related issues?"
+  ],
+  "responses":[
+    "Kindly mail to <a href='mailto:patqueries.ap@vitap.ac.in'>Pat queries</a> regarding placement related queries and dont mail directly to Placement officer or any other designatories.",
+    "<a href='mailto:patqueries.ap@vitap.ac.in'>Pat queries</a> is the official Query help for PAT and students can mail to this email if they face any issues or have doubts regarding placements and internships."
+  ]
+},
+{
+  "tag": "VtoP help",
+  "patterns":[
+       "Whom should I mail if I face an issue with VTOP?",
+        "My Vtop credentials are freezed.Whom should I mail?",
+        "What is the email id of VTOP help?"
+  ],
+  "responses":[
+    "<a href='mailto:vtop.help@vitap.ac.in'>VTOP Help</a> is the department to which you need to mail your queries related to VTOP and your Your account.Dont mail any other department regarding these issues.",
+    "Kindly Mail to <a href='mailto:vtop.help@vitap.ac.in'>VTOP Help</a> regarding VTOP issues and the team will respond to you within minutes.Avoid mailing to other university departments."
+  ]
+},
+{
+  "tag": "finance mailing",
+  "patterns":[
+     "To whom should I mail my NEFT/RTGS slip?",
+      "What is the mailing address of Finance department of VITAP?",
+     "To whom should mail regarding fee related, tuition fee,education loan and transaction related issues"
+  ],
+  "responses":[
+    "We have a Finance department at VIT AP and you mail your queries to this email id <a href='mailto:finance@vitap.ac.in'>FINANCE</a>.Avoid mailing to other departments and only mail to the concerned department.",
+    "<a href='mailto:finance@vitap.ac.in'>Finance</a> is mailing address of VITAP.You can send your NEFT/RTGS details,payment queries,tuition related discussions to this mail and kindly refrain from sending the same to other departments." 
+  ]
+},
+{
+  "tag":"email help",
+  "patterns":[
+     "To whom should I mail regarding Email issues or storage related issues?",
+     "What is the email address of Email help body of VITAP?",
+     "I have some bugs in my mail id.To whom should I mail regarding the same?"
+  ],
+  "responses":[
+    "Kindly mail to <a href='mailto:email.help@vitap.ac.in'>Email Help</a> to get your queries answered.",
+    "<a href='mailto:email.help@vitap.ac.in'>Email Help</a> is the official Email help to which you can put your queries regarding your college mail id.Kindly click the link to redirect and dont mail to any other department."
+  ]
+},
+{
+  "tag":"Student Welfare",
+  "patterns":[
+    "We want to organize an event.To whom should we mail regarding the same?"
+  ],
+  "responses":[
+    "You can mail to <a href='mailto:deputydir.sw@vitap.ac.in'>Student Welfare Director</a> and CC to <a href='mailto:sw.team@vitap.ac.in'>SW team</a> if you want to create a new club or conduct any event.",
+    "Student welfare body deals with conducting events, Managing clubs and thier budgets and granting permissions and allocating budgets for clubs.Kindly mail to <a href='mailto:deputydir.sw@vitap.ac.in'>Student Welfare Director</a> and CC to  <a href='mailto:sw.team@vitap.ac.in'>SW team</a> to get your requests approved and dont mail any other departments."
+  ]
+}
+  ]
+}

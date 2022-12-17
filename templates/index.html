@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <link   rel="stylesheet" 
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+        crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" 
+        crossorigin="anonymous"></script>
+    <style>
+       *{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      }
+      body{
+        background-color: #8399a2;
+        margin-left: 30rem;
+        margin-right: 22rem;
+        margin-bottom: 4px;
+        border-radius: 4px;
+      }
+      .main-cont{
+        background-color: #eef2f3;
+        margin-top: 5rem;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        border-radius: 12px;
+        width:400px;
+        justify-content: center;
+        align-items: center;
+      }
+     .captitle{
+        text-align: center;
+        margin-bottom: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        
+
+     }
+     .titletag{
+      padding-bottom: 1rem;
+      color: #607d8b;
+      font-weight: 500;
+      font-size: 1.3em;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+      /*border-bottom: 3px solid #950b16;*/
+      display: inline-block;
+      letter-spacing: 1px;
+      padding-left: 3.5rem;
+     }
+     .formbox{
+      display: flex;
+        justify-content: center;
+        align-items: center;
+        height:50%;
+        width:100%;
+     }
+    form {
+        text-align: center;
+      }
+    .captcha{
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .inptbox{
+      margin-bottom: 20px;
+      width:100%;
+      padding:10px 20px;
+      font-weight: 300;
+      border: 1px solid #607d8b;
+      font-size: 16px;
+      letter-spacing: 1px;
+      color: #607d8b;
+      background: transparent;
+      border-radius: 30px;
+    }
+    .sub{
+      background: #950b16;
+      margin-bottom: 20px;
+      width:100%;
+      padding:10px 20px;
+      font-weight: 500;
+      border: none;
+      font-size: 16px;
+      letter-spacing: 1px;
+      color: #fff;
+      border-radius: 30px;
+      outline:none;
+      cursor: pointer;
+    }
+    .sub:hover{
+      background: black;
+    }
+    .fields{
+      font-size: 14px;
+      margin-bottom: 2px;
+      display: inline-block;
+      color: #607d8b;
+      font-weight: 400;
+      letter-spacing: 1px;
+      font-size: 15px;
+    }
+    </style>
+    
+  </head>
+<body>
+<div class="main-cont">
+<h1 class="titletag">Please Login To Continue</h1>
+<div class="captitle"><b>Recaptcha Authentication</b></div>
+<div class="formbox">
+<form method="post" action="/submit">
+  <div class="captcha">
+    {{ recaptcha }}
+  </div>
+  <div class="row">
+    <div class="col-md-3">
+      <a class="btn btn-outline-dark" href="/login" role="button" style="text-transform:none;margin-left: 6px;padding-left: 60px;padding-right: 75px;">
+        <img width="20px" style="margin-bottom:3px; margin-right:5px" alt="Google sign-in" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/512px-Google_%22G%22_Logo.svg.png" />
+        Login with Google
+      </a>
+    </div>
+  </div>
+  <!-- div class="g-recaptcha" data-sitekey="6Le_DMkiAAAAAPZTQ4HSiIsruXEVZZ5P7XCEwIb4" ><-- /div -->
+</form>
+</div>
+</div>
+</body>
+</html>
