@@ -14,7 +14,7 @@ MarkupSafe==2.1.1
 nltk>3.8.1
 numpy==1.23.1
 Pillow==10.3.0
-pymongo==4.3.3
+pymongo==4.6.3
 regex==2022.7.25
 requests==2.31.0
 torch==2.2.0
